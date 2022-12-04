@@ -9,7 +9,11 @@ I have made most of the project to be Object-Oriented with some general practice
 
 ## Requirements
 [X] Connects to MySQL Database
+
 [X] Calendar View
+
 [X] Logs User Interaction
+
 [X] Convert Time Based on Location
+
 [X] Has 2+ Available Languages
