@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="450.0" maxWidth="300.0" minHeight="450.0" minWidth="300.0" prefHeight="450.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.AppointmentTypeReportController">
+   <children>
+      <Label fx:id="januaryLabel" layoutX="132.0" layoutY="117.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="80.0" />
+      <Label fx:id="februaryLabel" layoutX="142.0" layoutY="127.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="110.0" />
+      <Label fx:id="marchLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="140.0" />
+      <Label fx:id="aprilLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="170.0" />
+      <Label fx:id="mayLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="200.0" />
+      <Label fx:id="juneLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="230.0" />
+      <Label fx:id="julyLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="260.0" />
+      <Label fx:id="augustLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="290.0" />
+      <Label fx:id="septemberLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="320.0" />
+      <Label fx:id="octoberLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="350.0" />
+      <Label fx:id="novemberLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="380.0" />
+      <Label fx:id="decemberLabel" layoutX="152.0" layoutY="137.0" text="Label" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="410.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="135.0" layoutY="37.0" text="Appointment Type Report" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

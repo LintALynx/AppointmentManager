@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="385.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.PostLoginWindowController">
+   <children>
+      <Button fx:id="calButton" layoutX="50.0" layoutY="180.0" mnemonicParsing="false" onAction="#calendarButton" text="Calendar" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="180.0" />
+      <Button fx:id="appButton" layoutX="253.0" layoutY="200.0" mnemonicParsing="false" onAction="#appointmentsButton" text="Appointments" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="245.0" AnchorPane.topAnchor="180.0" />
+      <Button fx:id="recButton" layoutX="439.0" layoutY="180.0" mnemonicParsing="false" onAction="#customerRecordsButton" text="Customer Records" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="51.0" AnchorPane.topAnchor="180.0" />
+      <Button fx:id="appointmentReportButton" layoutX="293.0" layoutY="266.0" mnemonicParsing="false" onAction="#generateReportAction" text="Appointment Report" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="245.0" AnchorPane.topAnchor="270.0" />
+      <Button fx:id="consultantReportButton" layoutX="98.0" layoutY="270.0" mnemonicParsing="false" onAction="#consultantReportButtonAction" text="Consultant Report" AnchorPane.leftAnchor="440.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="270.0" />
+      <Button fx:id="locationReportButton" layoutX="303.0" layoutY="276.0" mnemonicParsing="false" onAction="#locationReportButtonAction" text="Location Report" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="440.0" AnchorPane.topAnchor="270.0" />
+   </children>
+</AnchorPane>

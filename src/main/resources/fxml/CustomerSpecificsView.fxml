@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="350.0" maxWidth="300.0" minHeight="350.0" minWidth="300.0" prefHeight="350.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.CustomerSpecificsViewController">
+   <children>
+      <Button fx:id="submitButton" layoutX="123.0" layoutY="203.0" mnemonicParsing="false" onAction="#submitButtonAction" text="Submit" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" />
+      <TextField fx:id="nameField" layoutX="100.0" layoutY="97.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0" />
+      <TextField fx:id="addressField" layoutX="110.0" layoutY="107.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="65.0" />
+      <TextField fx:id="cityField" layoutX="110.0" layoutY="107.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="110.0" />
+      <TextField fx:id="countryField" layoutX="109.0" layoutY="159.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="155.0" />
+      <Label fx:id="nameLabel" alignment="CENTER_RIGHT" layoutX="65.0" layoutY="25.0" text="Name:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="23.0" />
+      <Label fx:id="addressLabel" alignment="CENTER_RIGHT" layoutX="83.0" layoutY="70.0" text="Address:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="68.0" />
+      <Label fx:id="cityLabel" alignment="CENTER_RIGHT" layoutX="71.0" layoutY="115.0" text="City:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="115.0" />
+      <Label fx:id="countryLabel" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="160.0" text="Country:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="160.0" />
+      <TextField fx:id="postalField" layoutX="125.0" layoutY="204.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="200.0" />
+      <Label fx:id="postalLabel" alignment="CENTER_RIGHT" layoutX="66.0" layoutY="210.0" text="Postal Code:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="205.0" />
+      <TextField fx:id="phoneNumberField" layoutX="131.0" layoutY="236.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="245.0" />
+      <Label fx:id="phoneNumberLabel" alignment="CENTER_RIGHT" layoutX="57.0" layoutY="250.0" text="Phone Number:" textAlignment="RIGHT" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="250.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.CalendarViewController">
+   <children>
+      <GridPane fx:id="gridPane" gridLinesVisible="true" layoutX="28.0" layoutY="57.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="60.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="53.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="64.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="85.0" minHeight="10.0" prefHeight="64.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="69.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="59.0" minHeight="10.0" prefHeight="51.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Sunday" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Monday" GridPane.columnIndex="1" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Tuesday" GridPane.columnIndex="2" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Wednesday" GridPane.columnIndex="3" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Thursday" GridPane.columnIndex="4" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Friday" GridPane.columnIndex="5" />
+            <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="17.0" prefWidth="60.0" text="Saturday" GridPane.columnIndex="6" />
+            <Label fx:id="cellZeroOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="80.0" text="Label" GridPane.rowIndex="1" />
+            <Label fx:id="cellOneOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="cellTwoOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="cellThreeOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="cellFourOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Label fx:id="cellFiveOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Label fx:id="cellSixOne" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Label fx:id="cellZeroTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.rowIndex="2" />
+            <Label fx:id="cellOneTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="cellZeroThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.rowIndex="3" />
+            <Label fx:id="cellSixTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Label fx:id="cellFiveTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Label fx:id="cellFourTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Label fx:id="cellThreeTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="cellTwoTwo" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="cellOneThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="cellTwoThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="cellThreeThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="cellFourThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Label fx:id="cellFiveThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="cellSixThree" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Label fx:id="cellZeroFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.rowIndex="4" />
+            <Label fx:id="cellOneFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="cellTwoFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="cellThreeFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="cellFourFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Label fx:id="cellFiveFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Label fx:id="cellZeroFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.rowIndex="5" />
+            <Label fx:id="cellSixFour" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Label fx:id="cellOneFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="cellTwoFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="cellThreeFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label fx:id="cellFourFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Label fx:id="cellFiveFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Label fx:id="cellSixFive" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Label fx:id="cellZeroSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.rowIndex="6" />
+            <Label fx:id="cellOneSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="cellTwoSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="cellThreeSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label fx:id="cellFourSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Label fx:id="cellFiveSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Label fx:id="cellSixSix" alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="80.0" minHeight="50.0" minWidth="50.0" prefHeight="50.0" prefWidth="50.0" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+      <Label fx:id="monthLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="266.0" layoutY="24.0" maxWidth="80.0" minWidth="80.0" prefWidth="80.0" text="Septermber" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="monthMenuButton" layoutX="14.0" layoutY="18.0" mnemonicParsing="false" text="Month" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="660.0" AnchorPane.topAnchor="18.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <TableView fx:id="tableView" layoutX="511.0" layoutY="60.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="520.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+        <columns>
+          <TableColumn maxWidth="105.0" minWidth="105.0" prefWidth="105.0" text="Title" />
+          <TableColumn maxWidth="105.0" minWidth="105.0" prefWidth="105.0" text="Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

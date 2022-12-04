@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.MainWindowController">
+  <children>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField fx:id="usernameField" layoutX="299.0" layoutY="120.0" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="178.0" />
+            <Button fx:id="submitButton" layoutX="273.0" layoutY="217.0" mnemonicParsing="false" onAction="#submitButtonAction" text="Login" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="270.0" AnchorPane.rightAnchor="315.0" />
+            <Label fx:id="usernameLabel" alignment="CENTER_RIGHT" layoutX="221.0" layoutY="123.0" text="Username:" AnchorPane.bottomAnchor="185.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="353.0" AnchorPane.topAnchor="180.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordLabel" alignment="CENTER_RIGHT" layoutX="221.0" layoutY="163.0" text="Password:" AnchorPane.bottomAnchor="142.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="353.0" AnchorPane.topAnchor="223.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="passwordField" layoutX="300.0" layoutY="160.0" prefHeight="27.0" prefWidth="150.0" AnchorPane.bottomAnchor="138.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="220.0" />
+            <SplitMenuButton fx:id="locationMenuButton" layoutX="298.0" layoutY="80.0" mnemonicParsing="false" text="Phoenix, Arizona" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="80.0">
+              <items>
+                <!-- <MenuItem mnemonicParsing="false" onAction="#updateMenuButton" text="Pheonix, Arizona" />
+                  <MenuItem mnemonicParsing="false" text="New York, New York" />
+                  <MenuItem mnemonicParsing="false" text="London, England" /> -->
+              </items>
+            </SplitMenuButton>
+            <Label fx:id="locLabel" alignment="CENTER_RIGHT" layoutX="227.0" layoutY="88.0" text="Location:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="82.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <SplitMenuButton fx:id="languageSelector" layoutX="299.0" layoutY="118.0" mnemonicParsing="false" text="English" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="127.0">
+              <items>
+                <!-- <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" /> -->
+              </items>
+            </SplitMenuButton>
+            <Label fx:id="langLabel" alignment="CENTER_RIGHT" layoutX="237.0" layoutY="98.0" text="Language:" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="130.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

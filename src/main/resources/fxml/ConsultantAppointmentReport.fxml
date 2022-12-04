@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.ConsultantAppointmentReportController">
+   <children>
+      <TableView fx:id="tableView" layoutX="200.0" layoutY="100.0" maxHeight="320.0" maxWidth="600.0" minHeight="320.0" minWidth="600.0" prefHeight="320.0" prefWidth="600.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Consultant Name" />
+          <TableColumn maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Consultant ID" />
+            <TableColumn maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Number of Appointments" />
+        </columns>
+      </TableView>
+      <Button fx:id="detailsButton" layoutX="272.0" layoutY="343.0" mnemonicParsing="false" onAction="#detailsButtonAction" text="Details" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="265.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="343.0" />
+      <Button fx:id="okayButton" layoutX="403.0" layoutY="343.0" mnemonicParsing="false" onAction="#okayButtonAction" text="Okay" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="430.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="343.0" />
+      <Button fx:id="cancelButton" layoutX="130.0" layoutY="343.0" mnemonicParsing="false" onAction="#cancelButtonAction" text="Cancel" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="430.0" AnchorPane.topAnchor="343.0" />
+   </children>
+</AnchorPane>

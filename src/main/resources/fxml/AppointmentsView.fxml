@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="402.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.AppointmentsViewController">
+   <children>
+      <Button fx:id="addButton" layoutX="110.0" layoutY="39.0" mnemonicParsing="false" onAction="#addAppointment" text="Add" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="updateButton" layoutX="198.0" layoutY="40.0" mnemonicParsing="false" onAction="#updateAppointment" text="Modify Appointment" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="234.0" AnchorPane.rightAnchor="234.0" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="deleteButton" layoutX="447.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteAppointment" text="Delete" AnchorPane.bottomAnchor="355.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="20.0" />
+      <TableView fx:id="tableView" layoutX="190.0" layoutY="132.0" maxHeight="300.0" maxWidth="560.0" minHeight="300.0" minWidth="560.0" prefHeight="300.0" prefWidth="560.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+        <columns>
+          <TableColumn maxWidth="150.0" minWidth="150.0" prefWidth="150.0" text="Type" />
+          <TableColumn maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Customer" />
+            <TableColumn maxWidth="100.0" minWidth="100.0" prefWidth="100.0" text="Length" />
+            <TableColumn maxWidth="108.0" minWidth="108.0" prefWidth="108.0" text="Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

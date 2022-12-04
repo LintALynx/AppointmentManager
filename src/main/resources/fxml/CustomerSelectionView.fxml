@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.CustomerSelectionView">
+   <children>
+      <TableView fx:id="tableView" layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="68.0">
+         <columns>
+            <TableColumn maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="Name" />
+            <TableColumn maxWidth="250.0" minWidth="250.0" prefWidth="250.0" resizable="false" text="Address" />
+            <TableColumn maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" text="Contact" />
+         </columns>
+      </TableView>
+      <Button layoutX="365.0" layoutY="359.0" mnemonicParsing="false" onAction="#okButtonAction" text="Ok" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="365.0" AnchorPane.rightAnchor="170.0" AnchorPane.topAnchor="353.0" />
+      <Button fx:id="cancelButton" layoutX="180.0" layoutY="353.0" mnemonicParsing="false" onAction="#cancelButtonAction" text="Cancel" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="365.0" AnchorPane.topAnchor="353.0" />
+      <Button fx:id="addCustomerButton" layoutX="72.0" layoutY="20.0" mnemonicParsing="false" onAction="#addCustomer" text="Add Customer" AnchorPane.bottomAnchor="353.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="modifyCustomerButton" layoutX="244.0" layoutY="20.0" mnemonicParsing="false" onAction="#modifyCustomer" text="Modify Customer" AnchorPane.bottomAnchor="353.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="20.0" />
+      <Button fx:id="deleteCustomerButton" layoutX="430.0" layoutY="20.0" mnemonicParsing="false" onAction="#deleteCustomer" text="Delete Customer" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="20.0" />
+   </children>
+</AnchorPane>

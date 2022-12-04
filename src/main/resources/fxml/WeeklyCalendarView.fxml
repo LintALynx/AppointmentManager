@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.zeuschops.AppointmentManager.Window.WeeklyCalendarViewController">
+   <children>
+      <TableView fx:id="tableView" layoutX="104.0" layoutY="141.0" maxHeight="340.0" maxWidth="600.0" minHeight="340.0" minWidth="600.0" prefHeight="340.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0">
+        <columns>
+          <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Start Time" />
+          <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Sunday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Monday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Tuesday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Wednesday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Thursday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Friday" />
+            <TableColumn maxWidth="75.0" minWidth="75.0" prefWidth="75.0" text="Saturday" />
+        </columns>
+      </TableView>
+      <Label fx:id="titleLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="285.0" layoutY="27.0" maxHeight="27.0" maxWidth="320.0" minHeight="27.0" minWidth="320.0" prefHeight="27.0" prefWidth="320.0" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="20.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="weekMenuButton" layoutX="15.0" layoutY="16.0" maxHeight="25.0" maxWidth="104.0" minHeight="25.0" minWidth="104.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Week" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="18.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
